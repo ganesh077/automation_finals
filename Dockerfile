@@ -1,4 +1,4 @@
 # Dockerfile
-FROM nginx:alpine
+FROM nginx:standard
 
 COPY . /usr/share/nginx/html
